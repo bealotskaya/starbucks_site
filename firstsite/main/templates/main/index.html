@@ -1,0 +1,15 @@
+{% extends  'main/layout.html' %}
+
+{% block title %}Main page{% endblock %}
+
+{% block content %}
+<div class="features">
+    <h1>{{ title }}</h1>
+    <p>What's new</p>
+    <button class="btn btn-warning">To page</button>
+        {% for val in values %}
+            <p>{{ val }}</p>
+        {% endfor%}
+</div>
+{% include 'main/test.html' %}
+{% endblock %}

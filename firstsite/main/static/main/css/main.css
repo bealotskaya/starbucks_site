@@ -1,0 +1,109 @@
+    body {
+        background: #faf0e6;
+    }
+    aside {
+         float: left;
+         background: #0d7952;
+         width: 20%;
+         padding: 2.5%;
+         height: 100vh;
+         color: #fff;
+         border-right: 5px solid #000000;
+    }
+
+    aside img {
+        weight: 50px;
+        float: left;
+    }
+
+    aside .logo {
+        color: #000000;
+        font-size: 33px;
+        margin-left: 10px;
+        font-weight: bold;
+        position: relative;
+        top: 5px;
+    }
+
+    aside h3 {
+        color: #000000;
+        margin-left: 5px;
+        margin-top: 50px;
+        font-size: 25px;
+    }
+
+    aside ul {list-style: none}
+        aside ul li {
+        color: #000000;
+        font-size: 17px;
+        margin-left: 35px;
+        display: block;
+        margin-top: 20px;
+        transition: transform .6s ease;
+    }
+
+    aside ul li:hover, aside ul a:hover {
+        color: #faf0e6;
+        text-decoration: none;
+        transform: scale(1.05);
+    }
+
+    main .features {
+    margin-left: 450px;
+        float: left;
+        color: #000000;
+        margin-top: 50px;
+        text-align: center;
+        weight: 75%;
+    }
+
+    main .features h1 {
+        font-size: 33px;
+        font-weight: bold;
+    }
+
+    main .features button {
+        padding: 5px 40px;
+        background: #0d7952;
+        font-size: 20px;
+        border: 2px solid black;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    main .features button:hover{
+        background-color: #faf0e6;
+        text-decoration: none;
+        border: 2px solid black;
+        transform: scale(1.05);
+        text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    main .features p {
+        max-weight: 400px;
+        margin: 20px auto;
+    }
+
+    main .about {
+        margin-left: 450px;
+        float: left;
+        color: #000000;
+        margin-top: 50px;
+        text-align: center;
+        weight: 75%;
+    }
+
+    main .about h1 {
+        font-size: 33px;
+        font-weight: bold;
+    }
+
+    main .about p {
+        max-weight: 400px;
+        margin: 20px auto;
+    }
